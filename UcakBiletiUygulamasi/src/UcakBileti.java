@@ -49,6 +49,10 @@ Kişi "Yolculuk Tipini" gidiş dönüş seçmiş ise bilet fiyatı üzerinden %2
             }else
                 iToplam= toplam *0.3 ;
         }
+        if(ytipi==2){
+            iToplam=toplam*0.20;
+
+        }
 
 
         System.out.printf("indirim :"+iToplam+"\n");

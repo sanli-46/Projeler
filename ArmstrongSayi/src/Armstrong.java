@@ -34,18 +34,13 @@ public class Armstrong {
             System.out.println("Armstrong degil !!!"+total);
         }
 
-
-
-
-
-
-
-
         }else {
             System.out.printf("3 basamali biir sayi girin !");
         }
 
-   /* Scanner src=new Scanner(System.in);
+   /*
+ ////////////////////////////////////////////////////////////////////////////////////////////////////
+    Scanner src=new Scanner(System.in);
         System.out.printf("Sayiyi girin :");
      int number= src.nextInt();
      int basnumber=0,tempnumber=number,basvalue,result=0,basamakpow;

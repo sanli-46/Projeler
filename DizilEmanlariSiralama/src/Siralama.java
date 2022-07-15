@@ -14,7 +14,10 @@ public class Siralama {
               System.out.print((i+1)+".Eleman :");
               list1[i]=inp.nextInt();
           }
-
+              System.out.print("Girilen dizi   :");
+        System.out.println("Siralama :"+Arrays.toString(list1));
+        Arrays.sort(list1);
+        System.out.print("Siralanan dizi   :");
         System.out.println("Siralama :"+Arrays.toString(list1));
     }
 }
